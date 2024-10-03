@@ -1,6 +1,14 @@
 # ICSH (IC-shell)
 This project was completed as a part of the ICCS271: Principles of Computer Systems and Architecture course by Kanladaporn Sirithatthamrong.
 
+## Overview
+In this project, I will implement a simple shell for Linux. This shell will be called “icsh” or “IC shell”. The functionality of this shell will be similar to other popular Linux shells such as bash, csh, zsh, but with a subset of features. Basically, icsh should have the following functionality:
+- Interactive and batch mode
+- Support built-in some commands 
+- Allow the user to execute one or more programs from executable files as either background or foreground jobs
+- Provide job-control, including a job list and tools for changing the foreground/background status of currently running jobs and job suspension/continuation/termination.
+- Allow for input and output redirection to/from files.
+
 ## Interactive command-line interpreter
 - `echo <text>`: Prints a given text (until EOL) back to the console.
 - `!!`: Repeat the last command given to the shell.
